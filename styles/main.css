@@ -1,0 +1,34 @@
+.watch-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.watch-bgk-img {
+  position: absolute;
+  top: 0rem;
+}
+
+.watch-play-icon {
+  position: absolute;
+  top: 13vw;
+  transition: 0.4s;
+}
+
+.watch-text {
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+  position: absolute;
+  font-size: 0.6rem;
+  top: 21vw;
+  transition: 0.4s;
+}
+
+.watch-play-icon:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
