@@ -5,10 +5,10 @@ Transform a PSD into a website as a team project
 
 
 
-->> hey guys, here is concept of Read.me and markdown cheet sheet link
+hey guys, here is concept of Read.me and markdown cheet sheet link
 https://www.markdownguide.org/cheat-sheet/
 
-
+---------------------------------------------------------
 README.md: The Ultimate Guide
 When it comes to open-source projects, documentation is key. And at the heart of this documentation is the README.md file. 
 In this comprehensive guide, we'll explore the importance of the README.md file, its components, and how to create one that stands out.
