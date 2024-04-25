@@ -1,3 +1,13 @@
+/* I copied from footer.css for unfying colors and fonts */
+.main {
+  --brand-color: #00e0d0;
+  --txt-color: #ffffff;
+  --white-tr: #ffffff80;
+  --txt-font: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  box-sizing: border-box;
+}
+
 .watch-section {
   padding-block: 170px;
   font-family: var(--txt-font);
@@ -38,4 +48,81 @@
 .watch-container:hover {
   cursor: pointer;
   transform: scale(1.2);
+}
+
+/*<--contact & client section by Hyeong*/
+.cc-section {
+  margin: 50px 0 50px 0;      
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+
+    @media (width > 960px) {
+      flex-direction: row;
+      justify-content: center;
+  }
+  & > * {
+    flex: 1;
+    max-width: 300px;
+  }
+}
+
+.client-container {
+  margin-left: 1rem;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+
+  .logos {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+}
+
+
+.contactform-group {
+  
+  ::placeholder {
+    font-family: Arial, sans-serif;
+  }
+
+  * {
+    border: 1px solid rgb(173, 173, 173);
+    border-radius: 3px;
+  }
+  
+  input {
+    height: 3rem;
+    width: 300px;
+    margin-top : 5px;
+  }
+
+  #message {
+    margin-top: 5px;
+    height: 100px;
+    width: 300px;
+  }
+}
+
+form button {
+  margin-top: 5px;
+  width: 70px;
+  height: 30px;
+  color: #00e0d0;
+  background-color: #ffffff80;
+  border: 1px solid #00e0d0;
+}
+
+.cc-section img {
+  width: 10rem;
+  height: 4rem;
+}
+
+.client-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
