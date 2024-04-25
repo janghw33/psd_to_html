@@ -1,5 +1,5 @@
 /* I copied from footer.css for unfying colors and fonts */
-.main {
+.watch__section {
   --brand-color: #00e0d0;
   --txt-color: #ffffff;
   --white-tr: #ffffff80;
@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 
-.watch-section {
+.watch__section {
   padding-block: 170px;
   font-family: var(--txt-font);
   color: var(--txt-color);
@@ -22,7 +22,7 @@
   --txt-color: #ffffff;
 }
 
-.watch-container {
+.watch__container {
   display: flex;
   gap: 1.5rem;
   align-items: center;
@@ -33,11 +33,11 @@
   transition: 0.4s;
 }
 
-.watch-play-icon {
+.watch__play-icon {
   /* transition: 0.4s; */
 }
 
-.watch-text {
+.watch__text {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -45,7 +45,7 @@
   /* transition: 0.4s; */
 }
 
-.watch-container:hover {
+.watch__container:hover {
   cursor: pointer;
   transform: scale(1.2);
 }
