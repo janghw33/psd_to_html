@@ -14,7 +14,7 @@
 
   <body>
     <header>Header</header>
-    <main>
+    <main class="main">
       <!-- watch section -->
       <section class="watch-section">
         <div class="watch-container">
@@ -25,7 +25,7 @@
             width="60%"
             height="auto"
           />
-          <div class="watch-text">watch our story</div>
+          <div class="watch__text">Watch our story</div>
         </div>
       </section>
       <!-- Expertise section -->
@@ -36,45 +36,126 @@
           <div class="divider"></div>
           <ul class="expertise__list">
             <li class="expertise__item">
-              <figure><img src="images/svg/screen.svg" alt=""></figure>
+              <figure><img src="images/svg/screen.svg" alt="" /></figure>
               <h3>Web design & development</h3>
-              <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-              auctor aliquet Aenean.</p>
+              <p>
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                vel velit auctor aliquet Aenean.
+              </p>
             </li>
             <li class="expertise__item">
-              <figure><img src="images/svg/pen.svg" alt=""></figure>
+              <figure><img src="images/svg/pen.svg" alt="" /></figure>
               <h3>Branding identity</h3>
-              <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-              auctor aliquet Aenean.</p>
+              <p>
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                vel velit auctor aliquet Aenean.
+              </p>
             </li>
             <li class="expertise__item">
-              <figure><img src="images/svg/mobile.svg" alt=""></figure>
+              <figure><img src="images/svg/mobile.svg" alt="" /></figure>
               <h3>Mobile app</h3>
-              <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-              auctor aliquet Aenean.</p>
+              <p>
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                vel velit auctor aliquet Aenean.
+              </p>
             </li>
             <li class="expertise__item">
-              <figure><img src="images/svg/graph.svg" alt=""></figure>
+              <figure><img src="images/svg/graph.svg" alt="" /></figure>
               <h3>Search engine optimization</h3>
-              <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-              auctor aliquet Aenean.</p>
+              <p>
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                vel velit auctor aliquet Aenean.
+              </p>
             </li>
             <li class="expertise__item">
-              <figure><img src="images/svg/gameboy.svg" alt=""></figure>
+              <figure><img src="images/svg/gameboy.svg" alt="" /></figure>
               <h3>Game development</h3>
-              <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-              auctor aliquet Aenean.</p>
+              <p>
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                vel velit auctor aliquet Aenean.
+              </p>
             </li>
             <li class="expertise__item">
-              <figure><img src="images/svg/heart.svg" alt=""></figure>
+              <figure><img src="images/svg/heart.svg" alt="" /></figure>
               <h3>Made with love</h3>
-              <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-              auctor aliquet Aenean.</p>
+              <p>
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                vel velit auctor aliquet Aenean.
+              </p>
             </li>
           </ul>
         </div>
       </section>
-      
+      <!-- team section -->
+      <section class="team__section">
+        <div class="team__container">
+          <div class="team__top">
+            <div class="team__heading">Meet our amazing team</div>
+            <p>Lorem ipsum dolor sit amet poin gravida nibh vel velit</p>
+            <hr class="team__line" />
+          </div>
+          <!-- team gallery -->
+          <div class="team__gallery">
+            <figure class="team__member">
+              <img
+                src="https://picsum.photos/640/360"
+                alt="placeholder image"
+                width="auto"
+                height="330px"
+              />
+              <figcaption class="caption__member">
+                <div class="member__name">SEMF UCUK</div>
+                <br />
+                <div class="member__title">CEO & FOUNDER</div>
+              </figcaption>
+            </figure>
+            <figure class="team__member">
+              <img
+                src="https://picsum.photos/640/360"
+                alt="placeholder image"
+                width="auto"
+                height="330px"
+              />
+              <figcaption class="caption__member">
+                <div class="member__name">DIK ADALIN</div>
+                <br />
+                <div class="member__title">ENGINEERING</div>
+              </figcaption>
+            </figure>
+            <figure class="team__member">
+              <img
+                src="https://picsum.photos/640/360"
+                alt="placeholder image"
+                width="auto"
+                height="330px"
+              />
+              <figcaption class="caption__member">
+                <div class="member__name">JENG KOL</div>
+                <br />
+                <div class="member__title">DESIGNER</div>
+              </figcaption>
+            </figure>
+            <figure class="team__member">
+              <img
+                src="https://picsum.photos/640/360"
+                alt="placeholder image"
+                width="auto"
+                height="330px"
+              />
+              <figcaption class="caption__member">
+                <div class="member__name">PET ROMAK</div>
+                <br />
+                <div class="member__title">MARKETING</div>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="team__bottom">
+            <div>Become part of our team, let's join us!</div>
+            <button>We are hiring</button>
+          </div>
+        </div>
+      </section>
+
       <!-- contact&client- section -->
       <section class="cc-section">
         <section class="contact-container">
@@ -84,36 +165,51 @@
           <form>
             <div class="contactform-group">
               <input type="text" id="name" name="name" placeholder=" Name" />
-              <input type="email" id="email" name="email" placeholder=" Email"/>
-              <input type="telephone" id="telephone" name="telephone" placeholder=" Telephone"/>
-              <textarea id="message" type="text" name="message"placeholder=" Your Message"></textarea>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder=" Email"
+              />
+              <input
+                type="telephone"
+                id="telephone"
+                name="telephone"
+                placeholder=" Telephone"
+              />
+              <textarea
+                id="message"
+                type="text"
+                name="message"
+                placeholder=" Your Message"
+              ></textarea>
             </div>
             <button type="submit">Submit</button>
-            
           </form>
         </section>
-        
+
         <section class="client-container">
-          <div style="margin-top: 100px;">
+          <div style="margin-top: 100px">
             <h2>OUR HAPPY CLIENT</h2>
           </div>
           <div class="logos">
-            <img src="images/svg/Zara_Logo.svg" alt="Zara_Logo"/>
-            <img src="images/svg/Logo_of_Mango_(new).svg" alt="Zara_Logo"/>
-            <img src="images/svg/1280px-Barneys_New_York_Logo.svg" alt="Barenys_Logo"/>
-            <img src="images/svg/1280px-Gucci_Logo.svg" alt="Gucci_Logo"/>
-            <img src="images/svg/Calvin_klein_logo.svg" alt="Calvin_Logo"/>
-            <img src="images/svg/1280px-Logo_NIKE.svg" alt="Nike_Logo"/>
-            <img src="images/svg/Converse_logo.svg" alt="Converse_Logo"/>
-            <img src="images/svg/Puma_Logo.svg" alt="Puma_Logo"/>
-            <img src="images/svg/1280px-Levi's_logo.svg" alt="Levi's_Logo"/>
-            <img src="images/svg/Billabong.svg" alt="Billabong_Logo"/>
+            <img src="images/svg/Zara_Logo.svg" alt="Zara_Logo" />
+            <img src="images/svg/Logo_of_Mango_(new).svg" alt="Zara_Logo" />
+            <img
+              src="images/svg/1280px-Barneys_New_York_Logo.svg"
+              alt="Barenys_Logo"
+            />
+            <img src="images/svg/1280px-Gucci_Logo.svg" alt="Gucci_Logo" />
+            <img src="images/svg/Calvin_klein_logo.svg" alt="Calvin_Logo" />
+            <img src="images/svg/1280px-Logo_NIKE.svg" alt="Nike_Logo" />
+            <img src="images/svg/Converse_logo.svg" alt="Converse_Logo" />
+            <img src="images/svg/Puma_Logo.svg" alt="Puma_Logo" />
+            <img src="images/svg/1280px-Levi's_logo.svg" alt="Levi's_Logo" />
+            <img src="images/svg/Billabong.svg" alt="Billabong_Logo" />
           </div>
-          
         </section>
-
       </section>
-       <!-- contact&client- section -->
+      <!-- contact&client- section -->
     </main>
     <footer class="footer">
       <div class="wrapper">
