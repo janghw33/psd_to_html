@@ -1,15 +1,15 @@
 # psd_to_html
 Transform a PSD into a website as a team project
 
-# page
+## page
 
-# body
+## body
 
-# header
+## header
 
-# main
+## main
 
-# footer
+## footer
 -----------------------------------------------------------------
 hey guys, here is concept of Read.me and markdown cheet sheet link
 <br>
