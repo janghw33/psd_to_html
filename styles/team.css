@@ -1,13 +1,3 @@
-/* I copied from footer.css for unfying colors and fonts */
-.team__section {
-  --brand-color: #00e0d0;
-  --txt-color: #ffffff;
-  --white-tr: #ffffff80;
-  --txt-font: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-
-  box-sizing: border-box;
-}
-
 .team__section {
   padding-block: 170px;
   font-family: var(--txt-font);
