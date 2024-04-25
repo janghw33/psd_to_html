@@ -1,0 +1,9 @@
+/* I copied from footer.css for unfying colors and fonts */
+.main {
+  --brand-color: #00e0d0;
+  --txt-color: #ffffff;
+  --white-tr: #ffffff80;
+  --txt-font: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  box-sizing: border-box;
+}

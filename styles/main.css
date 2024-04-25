@@ -8,59 +8,17 @@
   box-sizing: border-box;
 }
 
-.watch-section {
-  padding-block: 170px;
-  font-family: var(--txt-font);
-  color: var(--txt-color);
-  background-image: url("../images/bgk-middle.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  --txt-color: #ffffff;
-}
-
-.watch-container {
-  display: flex;
-  gap: 1.5rem;
-  align-items: center;
-  flex-wrap: wrap;
-  align-content: center;
-  flex-direction: column;
-  justify-content: center;
-  transition: 0.4s;
-}
-
-.watch-play-icon {
-  /* transition: 0.4s; */
-}
-
-.watch-text {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  gap: 2rem;
-  /* transition: 0.4s; */
-}
-
-.watch-container:hover {
-  cursor: pointer;
-  transform: scale(1.2);
-}
-
 /*<--contact & client section by Hyeong*/
 .cc-section {
-  margin: 50px 0 50px 0;      
+  margin: 50px 0 50px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2rem;
 
-    @media (width > 960px) {
-      flex-direction: row;
-      justify-content: center;
+  @media (width > 960px) {
+    flex-direction: row;
+    justify-content: center;
   }
   & > * {
     flex: 1;
@@ -79,12 +37,10 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
+  }
 }
-}
-
 
 .contactform-group {
-  
   ::placeholder {
     font-family: Arial, sans-serif;
   }
@@ -93,11 +49,11 @@
     border: 1px solid rgb(173, 173, 173);
     border-radius: 3px;
   }
-  
+
   input {
     height: 3rem;
     width: 300px;
-    margin-top : 5px;
+    margin-top: 5px;
   }
 
   #message {
