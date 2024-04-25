@@ -1,0 +1,51 @@
+/* I copied from footer.css for unfying colors and fonts */
+.main {
+  --brand-color: #00e0d0;
+  --txt-color: #ffffff;
+  --white-tr: #ffffff80;
+  --txt-font: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  box-sizing: border-box;
+}
+
+.watch-section {
+  padding-block: 170px;
+  font-family: var(--txt-font);
+  color: var(--txt-color);
+  background-image: url("../images/bgk-middle.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  --txt-color: #ffffff;
+}
+
+.watch-container {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  transition: 0.4s;
+}
+
+.watch-play-icon {
+  /* transition: 0.4s; */
+}
+
+.watch-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  gap: 2rem;
+  /* transition: 0.4s; */
+}
+
+.watch-container:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
