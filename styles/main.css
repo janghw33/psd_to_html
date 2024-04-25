@@ -1,4 +1,10 @@
-.watch-section {
+.main {
+  --brand-color: #00e0d0;
+  --txt-color: #ffffff;
+  --white-tr: #ffffff80;
+}
+
+.watch__section {
   padding-block: 170px;
   font-family: var(--txt-font);
   color: var(--txt-color);
@@ -9,10 +15,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  --txt-color: #ffffff;
 }
 
-.watch-container {
+.watch__container {
   display: flex;
   gap: 1.5rem;
   align-items: center;
@@ -23,11 +28,11 @@
   transition: 0.4s;
 }
 
-.watch-play-icon {
+.watch__play-icon {
   /* transition: 0.4s; */
 }
 
-.watch-text {
+.watch__text {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -35,7 +40,52 @@
   /* transition: 0.4s; */
 }
 
-.watch-container:hover {
+.watch__container:hover {
   cursor: pointer;
   transform: scale(1.2);
+}
+
+.team__section {
+  padding-block: 170px;
+  font-family: var(--txt-font);
+  color: var(--txt-color);
+  background-image: url("../images/bgk-header.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.team__container {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.team__top {
+  font-family: "Playfair Display";
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: center;
+  font-stretch: expanded;
+}
+
+.team__top p {
+  text-transform: none;
+  font-weight: lighter;
+  font-size: 11px;
+  padding: 0.5rem;
+}
+
+.team__line {
+  width: 50px;
+  border-color: var(--white-tr);
+  border-width: 0.5px;
 }
