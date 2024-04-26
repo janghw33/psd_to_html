@@ -1,77 +1,77 @@
 :root {
-    --gray-line-color: #413d4b30;
-    --gray-text-color: #413d4ba0;
+  --gray-line-color: #413d4b30;
+  --gray-text-color: #413d4ba0;
 }
 
 .divider {
-    width: 50px;
-    height: 2px;
-    margin-block-start: 2rem;
-    margin-inline: auto;
-    background-color: var(--gray-line-color);
+  width: 50px;
+  height: 2px;
+  margin-block-start: 2rem;
+  margin-inline: auto;
+  background-color: var(--gray-line-color);
 }
 
 .expertise {
-    padding-block: 60px;
-    /* font-family: var(--txt-font); */
+  padding-block: 60px;
+  /* font-family: var(--txt-font); */
 
-    & h2 {
-        text-align: center;
-        text-transform: uppercase;
-    }
+  & h2 {
+    text-align: center;
+    text-transform: uppercase;
+  }
 
-    & p {
-        text-align: center;
-        margin-block-start: 1rem;
-    }
+  & p {
+    text-align: center;
+    margin-block-start: 1rem;
+  }
 }
 
 .expertise__list {
-    display: grid;
-    grid-auto-rows: 1fr;
-    grid-template-columns: repeat(var(--col-qty, 1), 1fr);
-    gap: 1px;
-    list-style: none;
-    max-width: max-content;
-    margin-block-start: 2rem;
-    margin-inline: auto;
-    padding: 0;
-    background-color: var(--gray-line-color);
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: repeat(var(--col-qty, 1), 1fr);
+  gap: 1px;
+  list-style: none;
+  max-width: max-content;
+  margin-block-start: 2rem;
+  margin-inline: auto;
+  padding: 0;
+  background-color: var(--gray-line-color);
 
-    @media (width > 760px) {
-        --col-qty: 2;
-    }
+  @media (width > 760px) {
+    --col-qty: 2;
+  }
 
-    @media (width > 960px) {
-        --col-qty: 3;
-    }
+  @media (width > 960px) {
+    --col-qty: 3;
+  }
 }
 
 .expertise__item {
-    max-width: 360px;
-    padding: 2rem;
-    text-align: center;
-    background-color: #fff;
+  max-width: 360px;
+  padding: 2rem;
+  text-align: center;
+  background-color: #fff;
 
-    & figure {
-        margin-inline: auto;
-        width: 50px;
-        aspect-ratio: 1;
+  & figure {
+    margin-inline: auto;
+    width: 50px;
+    aspect-ratio: 1;
 
-        & img {
-            display: block;
-        }
+    & img {
+      display: block;
     }
+  }
 
-    & h3 {
-        margin-block-start: 1.5rem;
-        font-size: 1rem;
-        text-transform: uppercase;
-    }
+  & h3 {
+    margin-block-start: 1.5rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
 
-    & p {
-        margin-block-start: 1.5rem;
-        line-height: 1.6;
-        color: var(--gray-text-color);
-    }
+  & p {
+    margin-block-start: 1.5rem;
+    line-height: 1.6;
+    color: var(--gray-text-color);
+  }
 }
