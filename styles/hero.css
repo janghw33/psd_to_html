@@ -1,0 +1,30 @@
+.hero {
+    padding-block: 6rem;
+    font-family: var(--txt-font);
+    color: var(--txt-color);
+    background-image: url("../images/bgk-header.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    text-align: center;
+
+    & .divider {
+        background-color: var(--brand-color);
+    }
+}
+
+.hero__text {
+    margin-block-start: 2rem;
+    line-height: 1.8;
+}
+
+.hero__cta {
+    margin-block-start: 2rem;
+    background: none;
+    border: 1px solid var(--brand-color);
+    padding: 1rem 2rem;
+    color: var(--brand-color);
+    font-weight: 600;
+    text-transform: uppercase;
+}
