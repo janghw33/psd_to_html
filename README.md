@@ -25,6 +25,6 @@ Transform a PSD into a website as a team project.
     - contact us / clients
 - footer
 
-> hey guys, here is concept of Read.me and markdown cheet sheet link
+> here is concept of Read.me and markdown cheet sheet link
 > https://tiloid.com/p/readme-md-the-ultimate-guide
 > https://www.markdownguide.org/cheat-sheet/
