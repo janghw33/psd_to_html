@@ -1,0 +1,149 @@
+:root {
+  --gray-dark-bgr: #88809b;
+}
+
+.team__section {
+  padding-block: 60px;
+  font-family: var(--txt-font);
+  color: var(--txt-color);
+  background-image: url("../images/bgk-header.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.team__container {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.team__top {
+  font-family: "Playfair Display";
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  /* font-stretch: expanded; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.team__top p {
+  text-transform: none;
+  font-weight: lighter;
+  margin-block-start: 1rem;
+}
+
+.team__line {
+  width: 50px;
+  color: #88809b;
+  /* border-color: var(--gray-dark-bgr: #88809b); */
+  /* height: 0.1px; */
+  line-height: 0.1px;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.team__gallery {
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: repeat(var(--col-qty, 1), 1fr);
+  column-gap: 2rem;
+  row-gap: 2rem;
+
+  @media (width > 510px) {
+    --col-qty: 2;
+  }
+
+  @media (width > 1040px) {
+    --col-qty: 4;
+  }
+}
+
+.team__img {
+  width: 220px;
+  height: 230px;
+  object-fit: cover;
+  object-position: 0%;
+  align-items: start;
+  margin-bottom: -4rem;
+  background-color: #ffffff;
+}
+
+.team__member {
+  border-color: var(--gray-dark-bgr);
+  border-width: 1px;
+  border-style: solid;
+  width: 220px;
+  height: 308px;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  transition: 0.4s;
+
+  & h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-style: normal;
+    margin-top: 3.8rem;
+  }
+
+  & p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+    color: var(--gray-dark-bgr);
+    text-align: center;
+    margin-top: 0.2rem;
+  }
+}
+
+.team__member:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.team__member:active {
+  transform: scale(1);
+}
+
+.team__bottom {
+  text-align: center;
+  margin-block: 2rem;
+}
+
+.hiring__btn {
+  color: var(--brand-color);
+  text-transform: uppercase;
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: 400;
+  font-stretch: condensed;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--brand-color);
+  border-radius: 0.1rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  margin-top: 2rem;
+  transition: 0.4s;
+}
+
+.hiring__btn:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.hiring__btn:active {
+  transform: scale(1.1);
+}

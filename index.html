@@ -4,80 +4,308 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Hammersmith+One&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
+
     <link rel="stylesheet" href="style.css" />
     <title>tajam</title>
   </head>
+
   <body>
-    <header>
-      Header
-    </header>
-    <main>
+    <header>Header</header>
+    <main class="main">
       <!-- watch section -->
-      <section class="watch-section">
-        <div class="watch-container">
-          <img class="watch-bgk-img" src="./images/bgk-middle.png"
-            alt="skyline of a city" width="100%" height="auto" />
-          <img class="watch-play-icon" src="./images/svg/play.svg"
-            alt="play-icon" width="6%" height="auto" />
-          <h3 class="watch-text">WATCH OUR STORY</h3>
+      <section class="watch__section">
+        <div class="watch__container">
+          <img
+            class="watch__play-icon"
+            src="./images/svg/play.svg"
+            alt="play-icon"
+            width="60%"
+            height="auto"
+          />
+          <div class="watch__text">Watch our story</div>
         </div>
       </section>
+
+      <!-- Expertise section -->
+      <section class="expertise">
+        <div class="wrapper">
+          <h2>Expertise</h2>
+          <p>Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
+          <div class="divider"></div>
+          <ul class="expertise__list">
+            <li class="expertise__item">
+              <figure><img src="images/svg/screen.svg" alt="" /></figure>
+              <h3>Web design & development</h3>
+              <p>
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                vel velit auctor aliquet Aenean.
+              </p>
+            </li>
+            <li class="expertise__item">
+              <figure><img src="images/svg/pen.svg" alt="" /></figure>
+              <h3>Branding identity</h3>
+              <p>
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                vel velit auctor aliquet Aenean.
+              </p>
+            </li>
+            <li class="expertise__item">
+              <figure><img src="images/svg/mobile.svg" alt="" /></figure>
+              <h3>Mobile app</h3>
+              <p>
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                vel velit auctor aliquet Aenean.
+              </p>
+            </li>
+            <li class="expertise__item">
+              <figure><img src="images/svg/graph.svg" alt="" /></figure>
+              <h3>Search engine optimization</h3>
+              <p>
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                vel velit auctor aliquet Aenean.
+              </p>
+            </li>
+            <li class="expertise__item">
+              <figure><img src="images/svg/gameboy.svg" alt="" /></figure>
+              <h3>Game development</h3>
+              <p>
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                vel velit auctor aliquet Aenean.
+              </p>
+            </li>
+            <li class="expertise__item">
+              <figure><img src="images/svg/heart.svg" alt="" /></figure>
+              <h3>Made with love</h3>
+              <p>
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
+                vel velit auctor aliquet Aenean.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- team section -->
+      <section class="team__section">
+        <div class="team__container">
+          <div class="team__top">
+            <div class="team__heading"><h2>Meet our amazing team</h2></div>
+            <p>Lorem ipsum dolor sit amet poin gravida nibh vel velit</p>
+            <hr class="team__line" />
+          </div>
+          <!-- team gallery -->
+          <div class="team__gallery">
+            <figure class="team__member">
+              <img
+                class="team__img"
+                src="https://picsum.photos/640/370"
+                alt="placeholder image"
+              />
+              <figcaption class="caption__member">
+                <h3>SEMF UCUK</h3>
+                <p>CEO & FOUNDER</p>
+              </figcaption>
+            </figure>
+            <figure class="team__member">
+              <img
+                class="team__img"
+                src="https://picsum.photos/640/350"
+                alt="placeholder image"
+              />
+              <figcaption class="caption__member">
+                <h3>DIK ADALIN</h3>
+                <p>ENGINEERING</p>
+              </figcaption>
+            </figure>
+            <figure class="team__member">
+              <img
+                class="team__img"
+                src="https://picsum.photos/640/360"
+                alt="placeholder image"
+              />
+              <figcaption class="caption__member">
+                <h3>JENG KOL</h3>
+                <p>DESIGNER</p>
+              </figcaption>
+            </figure>
+            <figure class="team__member">
+              <img
+                class="team__img"
+                src="https://picsum.photos/640/380"
+                alt="placeholder image"
+              />
+              <figcaption class="caption__member">
+                <h3>PET ROMAK</h3>
+                <p>MARKETING</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="team__bottom">
+            <p>Become part of our dream team, let's join us!</p>
+            <button class="hiring__btn">We are hiring</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact&client- section -->
+      <section class="cc-section">
+        <section class="contact-container">
+          <div>
+            <h2>GIVE US A GOOD NEWS</h2>
+          </div>
+          <form>
+            <div class="contactform-group">
+              <input type="text" id="name" name="name" placeholder=" Name" />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder=" Email"
+              />
+              <input
+                type="telephone"
+                id="telephone"
+                name="telephone"
+                placeholder=" Telephone"
+              />
+              <textarea
+                id="message"
+                type="text"
+                name="message"
+                placeholder=" Your Message"
+              ></textarea>
+            </div>
+            <button type="submit">Submit</button>
+          </form>
+        </section>
+
+        <section class="client-container">
+          <div style="margin-top: 100px">
+            <h2>OUR HAPPY CLIENT</h2>
+          </div>
+          <div class="logos">
+            <img src="images/svg/Zara_Logo.svg" alt="Zara_Logo" />
+            <img src="images/svg/Logo_of_Mango_(new).svg" alt="Zara_Logo" />
+            <img
+              src="images/svg/1280px-Barneys_New_York_Logo.svg"
+              alt="Barenys_Logo"
+            />
+            <img src="images/svg/1280px-Gucci_Logo.svg" alt="Gucci_Logo" />
+            <img src="images/svg/Calvin_klein_logo.svg" alt="Calvin_Logo" />
+            <img src="images/svg/1280px-Logo_NIKE.svg" alt="Nike_Logo" />
+            <img src="images/svg/Converse_logo.svg" alt="Converse_Logo" />
+            <img src="images/svg/Puma_Logo.svg" alt="Puma_Logo" />
+            <img src="images/svg/1280px-Levi's_logo.svg" alt="Levi's_Logo" />
+            <img src="images/svg/Billabong.svg" alt="Billabong_Logo" />
+          </div>
+        </section>
+      </section>
+      <!-- contact&client- section -->
     </main>
     <footer class="footer">
       <div class="wrapper">
         <div class="footer__top">
           <div class="footer__about">
             <div class="footer__logo">
-              <img src="images/svg/logo.svg" alt="Tajam logo">
+              <img src="images/svg/logo.svg" alt="Tajam logo" />
               <div>tajam</div>
             </div>
-            <p>lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-            nibh elit. Duis sed odio sit amet auctror a ornare odio non mauris vitae
-            erat in elit</p>
+            <p>
+              lorem quis bibendum auctor, nisi elit consequat ipsum, nec
+              sagittis sem nibh elit. Duis sed odio sit amet auctror a ornare
+              odio non mauris vitae erat in elit
+            </p>
           </div>
           <div class="footer__address">
             <div class="footer__header">Our studio</div>
             <address class="footer__post">
-              <img src="images/svg/big104.svg" alt="">
+              <img src="images/svg/big104.svg" alt="" />
               <div>
-                Ruko cucruk, Jl. Radio luar dalem jos<br>
-                No.12 - 13, Kalideres - Jakarta Barat<br>
+                Ruko cucruk, Jl. Radio luar dalem jos<br />
+                No.12 - 13, Kalideres - Jakarta Barat<br />
                 11480 - Indonesia
               </div>
             </address>
             <div class="footer__phone">
-              <img src="images/svg/phone351.svg" alt="">
+              <img src="images/svg/phone351.svg" alt="" />
               <div>(+62) 21-2224 3333</div>
             </div>
           </div>
           <div class="footer__contact">
             <div class="footer__header">Stay in touch</div>
             <form class="footer__form">
-              <label for="f-email" class="visually-hidden">Subscribe our newsletter</label>
-              <input type="email" name="femail" id="f-email" placeholder="Subscribe our newsletter">
+              <label for="f-email" class="visually-hidden"
+                >Subscribe our newsletter</label
+              >
+              <input
+                type="email"
+                name="femail"
+                id="f-email"
+                placeholder="Subscribe our newsletter"
+              />
               <button>
                 <span class="visually-hidden">Submit</span>
-                <img src="images/svg/paper122.svg" alt="">
+                <img src="images/svg/paper122.svg" alt="" />
               </button>
             </form>
             <ul class="footer__social">
-              <li><a href="#" aria-label="Facebook"><img src="images/svg/facebook.svg" alt=""></a></li>
-              <li><a href="#" aria-label="Twitter"><img src="images/svg/twitter.svg" alt=""></a></li>
-              <li><a href="#" aria-label="Dribble"><img src="images/svg/dribbble.svg" alt=""></a></li>
-              <li><a href="#" aria-label="Instagram"><img src="images/svg/instagram.svg" alt=""></a></li>
-              <li><a href="#" aria-label="Google Plus"><img src="images/svg/gplus.svg" alt=""></a></li>
-              <li><a href="#" aria-label="YouTube"><img src="images/svg/youtube.svg" alt=""></a></li>
+              <li>
+                <a href="#" aria-label="Facebook"
+                  ><img
+                    src="images/svg/facebook.svg"
+                    alt=""
+                    width="36"
+                    height="36"
+                /></a>
+              </li>
+              <li>
+                <a href="#" aria-label="Twitter"
+                  ><img
+                    src="images/svg/twitter.svg"
+                    alt=""
+                    width="36"
+                    height="36"
+                /></a>
+              </li>
+              <li>
+                <a href="#" aria-label="Dribble"
+                  ><img
+                    src="images/svg/dribbble.svg"
+                    alt=""
+                    width="36"
+                    height="36"
+                /></a>
+              </li>
+              <li>
+                <a href="#" aria-label="Instagram"
+                  ><img
+                    src="images/svg/instagram.svg"
+                    alt=""
+                    width="36"
+                    height="36"
+                /></a>
+              </li>
+              <li>
+                <a href="#" aria-label="Google Plus"
+                  ><img
+                    src="images/svg/gplus.svg"
+                    alt=""
+                    width="36"
+                    height="36"
+                /></a>
+              </li>
+              <li>
+                <a href="#" aria-label="YouTube"
+                  ><img
+                    src="images/svg/youtube.svg"
+                    alt=""
+                    width="36"
+                    height="36"
+                /></a>
+              </li>
             </ul>
           </div>
         </div>
@@ -87,9 +315,7 @@
             <li><a href="#">Terms & condition</a></li>
             <li><a href="#">Privacy</a></li>
           </ul>
-          <div class="footer__copyright">
-            Copyright © 2015 - Tajem Creative
-          </div>
+          <div class="footer__copyright">Copyright © 2015 - Tajem Creative</div>
         </div>
       </div>
     </footer>
