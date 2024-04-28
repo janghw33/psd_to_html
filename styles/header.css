@@ -3,7 +3,7 @@ header {
     --txt-color: #ffffff;
     --white-tr: #ffffff80;
     --txt-font: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-    background-color: black;
+    background-color: #313057;
   
     box-sizing: border-box;
     display: flex;
@@ -18,9 +18,10 @@ header {
         align-content: center;
         justify-content: center;
         grid-template : 1 / 1 / 1 / 1;
+        gap : 1rem;
         .navigation nav ul {
             flex-direction: column; /* 세로로 배치 */
-    align-items: center; /* 가운데 정렬 */
+        align-items: center; /* 가운데 정렬 */
         }
     }
   }
@@ -33,7 +34,7 @@ header {
         align-items: center;
         color: var(--brand-color);
         font-size: 20px;
-        font-weight: 100;
+        font-weight: 60;
         letter-spacing: 2px;
         
     }
@@ -56,6 +57,10 @@ header {
                     color : var(--txt-color);
                     text-decoration: none;
                     
+                }
+                
+                :hover {
+                    color: var(--brand-color);
                 }
 
                 :last-child {
