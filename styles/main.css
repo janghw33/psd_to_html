@@ -82,7 +82,15 @@ form button {
   font-weight: bold;
   background-color: #ffffff80;
   border: 1px solid #00e0d0;
+
+  &:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
 }
+
+
 
 .cc-section img {
   width: 8rem;
