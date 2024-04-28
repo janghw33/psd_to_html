@@ -149,6 +149,7 @@
   & li > a {
     color: inherit;
     text-decoration: none;
+    text-transform: uppercase;
     transition: color 200ms;
 
     &:hover {
