@@ -1,4 +1,4 @@
-/* I copied from footer.css for unfying colors and fonts */
+/* Hyeong copied from footer.css for unfying colors and fonts */
 .main {
   --brand-color: #00e0d0;
   --txt-color: #ffffff;
@@ -10,15 +10,16 @@
 
 /*<--contact & client section by Hyeong*/
 .cc-section {
-  margin: 50px 0 50px 0;
+  margin : 50px 0 50px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
+  justify-content: center;
+  gap: 4rem;
 
   @media (width > 960px) {
     flex-direction: row;
-    justify-content: center;
+    align-items: normal;
   }
   & > * {
     flex: 1;
@@ -27,13 +28,11 @@
 }
 
 .client-container {
-  margin-left: 1rem;
-  text-align: center;
   flex-direction: column;
   align-items: center;
 
   .logos {
-    margin-top: 30px;
+    margin-top: 5px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
@@ -43,22 +42,30 @@
 .contactform-group {
   ::placeholder {
     font-family: Arial, sans-serif;
+    color: #bebebe;
   }
 
   * {
-    border: 1px solid rgb(173, 173, 173);
-    border-radius: 3px;
+    border: 1px solid rgb(236, 236, 236);
   }
 
   input {
-    height: 3rem;
+    height: 3em;
     width: 300px;
-    margin-top: 5px;
+    margin-top: 15px;
+    padding-left: 10px;  
+  }
+
+  /* TODO : Border color when input is clicked, it doesnt work */
+  input:focus {
+    border-color:#00e0d0 
   }
 
   #message {
-    margin-top: 5px;
-    height: 100px;
+    padding-left: 10px;
+    padding-top : 8px;
+    margin-top: 15px;
+    height: 130px;
     width: 300px;
   }
 }
@@ -73,12 +80,10 @@ form button {
 }
 
 .cc-section img {
-  width: 10rem;
-  height: 4rem;
+  width: 8rem;
+  height: 3rem;
 }
 
 .client-container {
-  position: relative;
-  display: flex;
   justify-content: center;
 }

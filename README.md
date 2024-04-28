@@ -1,22 +1,30 @@
-# psd_to_html
-Transform a PSD into a website as a team project
+# PSD to HTML
 
-## page
+Transform a PSD into a website as a team project.
 
-## body
+[GitHub Pages Preview](https://janghw33.github.io/psd_to_html/)
 
-## header
+## Team project of WD-51 by WBS
 
-## main
+### Stack
 
-## footer
------------------------------------------------------------------
-hey guys, here is concept of Read.me and markdown cheet sheet link
-<br>
-https://tiloid.com/p/readme-md-the-ultimate-guide
-<br>
-https://www.markdownguide.org/cheat-sheet/
+- HTML
+- CSS
 
----------------------------------------------------------
+### Main parts
 
+- header
+    - logo
+    - nav
+- main
+    - hero
+    - our story
+    - watch story
+    - expertise
+    - our team
+    - contact us / clients
+- footer
 
+> here is concept of Read.me and markdown cheet sheet link
+> https://tiloid.com/p/readme-md-the-ultimate-guide
+> https://www.markdownguide.org/cheat-sheet/

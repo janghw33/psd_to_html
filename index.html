@@ -10,11 +10,33 @@
 
     <link rel="stylesheet" href="style.css" />
     <title>tajam</title>
+
+    <style>
+    </style>
   </head>
 
   <body>
-    <header>Header</header>
+    <header id="home" >
+      <div class="main-logo">
+        <img src="images/svg/logo.svg" alt="Tajam logo" />
+        <div>tajam</div>
+      </div>
+      <div class="navigation">
+        <nav>
+          <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#expertise">EXPERTISE</a></li>
+            <li><a href="#team">TEAM</a></li>
+            <li><a href="#contact">WORKS</a></li>
+            <li><a href="#people">PEOPLE SAY</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <main class="main">
+
       <!-- our-story section -->
       <section class="story__section">
         <div class="story__wrapper">
@@ -40,6 +62,23 @@
         </div>
       </section>
 
+
+      <!-- Hero section -->
+      <section id="about" class="hero">
+        <div class="wrapper">
+          <h1 class="hero__header">We are Awesome Creative Agency</h1>
+          <div class="divider"></div>
+          <p class="hero__text">
+            This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
+            auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi
+            elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit
+            amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum
+            velit.
+          </p>
+          <button type="button" class="hero__cta">Learn More</button>
+        </div>
+      </section>
+
       <!-- watch section -->
       <section class="watch__section">
         <div class="watch__container">
@@ -55,7 +94,7 @@
       </section>
 
       <!-- Expertise section -->
-      <section class="expertise">
+      <section id="expertise" class="expertise">
         <div class="wrapper">
           <h2>Expertise</h2>
           <p>Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
@@ -114,7 +153,7 @@
       </section>
 
       <!-- team section -->
-      <section class="team__section">
+      <section id="team" class="team__section">
         <div class="team__container">
           <div class="team__top">
             <div class="team__heading"><h2>Meet our amazing team</h2></div>
@@ -176,10 +215,10 @@
       </section>
 
       <!-- contact&client- section -->
-      <section class="cc-section">
+      <section id="contact" class="cc-section">
         <section class="contact-container">
           <div>
-            <h2>GIVE US A GOOD NEWS</h2>
+            <h2 >GIVE US A GOOD NEWS</h2>
           </div>
           <form>
             <div class="contactform-group">
@@ -207,8 +246,8 @@
           </form>
         </section>
 
-        <section class="client-container">
-          <div style="margin-top: 100px">
+        <section id="people" class="client-container">
+          <div>
             <h2>OUR HAPPY CLIENT</h2>
           </div>
           <div class="logos">
