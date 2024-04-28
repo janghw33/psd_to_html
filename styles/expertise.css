@@ -16,11 +16,15 @@
   /* font-family: var(--txt-font); */
 
   & h2 {
+    font-family: "Playfair Display";
+    text-transform: uppercase;
+    letter-spacing: 1px;
     text-align: center;
     text-transform: uppercase;
   }
-
+  
   & p {
+    font-family: "Playfair Display";
     text-align: center;
     margin-block-start: 1rem;
   }
