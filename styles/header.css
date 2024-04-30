@@ -4,15 +4,15 @@ header {
     --white-tr: #ffffff80;
     --txt-font: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
     background-color: #313057;
-  
+    padding-inline : 2rem;
     box-sizing: border-box;
     display: flex;
-    justify-content: center;
-    gap : 20rem;
+    justify-content: space-between;
+    gap : 1rem;
     font-size: 10px;
     font-weight: 600; 
     align-items: center;
-    
+
     @media screen and (max-width: 660px){
         display: grid;
         align-content: center;
@@ -29,7 +29,6 @@ header {
     .main-logo {
         margin: 0.2rem 0.2rem 0.2rem 0.2rem;
         display: flex;
-        width: 5px;
         gap: 10px;
         align-items: center;
         color: var(--brand-color);
@@ -43,7 +42,6 @@ header {
 
   .navigation {
     nav {
-        display: flex;
 
         ul {
             display : flex;
@@ -51,12 +49,13 @@ header {
             padding: 0;
 
             li {
-                margin-right: 10px;
-
                 * {
                     color : var(--txt-color);
                     text-decoration: none;
-                    
+                }
+
+                a {
+                    padding: 5px;
                 }
                 
                 :hover {
