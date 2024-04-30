@@ -124,11 +124,6 @@
 }
 
 .hiring__btn {
-  color: var(--brand-color);
-  text-transform: uppercase;
-  font-family: "Hammersmith One", sans-serif;
-  font-weight: 400;
-  font-stretch: condensed;
   background-color: transparent;
   border-style: solid;
   border-width: 1px;
@@ -139,11 +134,22 @@
   transition: 0.4s;
 }
 
+.hiring__btn a {
+  color: var(--brand-color);
+  text-transform: uppercase;
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: 400;
+  font-stretch: condensed;
+  text-decoration: none;
+}
+
 .hiring__btn:hover {
   transform: scale(1.2);
   cursor: pointer;
+  filter: drop-shadow(0rem 0rem 0.3rem #00e0d0);
 }
 
 .hiring__btn:active {
   transform: scale(1.1);
+  filter: drop-shadow(0rem 0rem 0.1rem #00e0d0);
 }
