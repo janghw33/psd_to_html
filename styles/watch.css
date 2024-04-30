@@ -37,7 +37,7 @@
 
 .watch__container:hover {
   cursor: pointer;
-  transform: scale(1.1);
+  transform: scale(1.2);
   filter: drop-shadow(0rem 0rem 0.5rem #00e0d0);
 }
 
