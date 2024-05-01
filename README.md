@@ -1,6 +1,6 @@
 # PSD to HTML
 
-Transform a PSD into a website as a team project.
+Transform a PSD into a website
 
 [GitHub Pages Preview](https://janghw33.github.io/psd_to_html/)
 
